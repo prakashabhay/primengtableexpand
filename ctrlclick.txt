@@ -1,0 +1,10 @@
+  toggleSelected(event,id) {
+  if(event.ctrlKey) {
+    
+    console.log('true')
+  } else {
+    console.log('false')
+  }
+}
+
+(click)="toggleSelected($event,id)"
