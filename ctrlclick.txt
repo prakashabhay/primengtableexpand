@@ -49,7 +49,10 @@ export class AppComponent {
             beginAtZero: true,
             stepSize: 1
           },
-          
+          scaleLabel: {
+        display: true,
+        labelString: 'probability'
+      }
         }]
       },
       annotation: {
